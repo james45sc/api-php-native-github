@@ -2,7 +2,7 @@
     RewriteEngine On
 
     # Sesuaikan base path dengan folder project kamu
-    RewriteBase /api-php-native/public/
+    RewriteBase /api-php-native-github/public/
 
     # Jika file atau folder fisik tidak ada, arahkan ke index.php
     RewriteCond %{REQUEST_FILENAME} !-f
